@@ -42,6 +42,8 @@ dependencies {
 	//implementation("org.springframework.boot:spring-boot-starter-log4j2:3.0.2")
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa:3.0.0")
 
+	//graphql
+	implementation("com.graphql-java-kickstart:graphql-spring-boot-starter:15.0.0")
 
 	testImplementation("io.mockk:mockk:1.13.4")
 
