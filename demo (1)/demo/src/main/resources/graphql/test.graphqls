@@ -8,7 +8,7 @@ type Mutation{
 }
 
 type Query{
-    findName(name:String!):Int
+    findName(name:String!):String
 }
 type Member{
     id:Int,

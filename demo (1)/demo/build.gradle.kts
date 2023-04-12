@@ -44,14 +44,15 @@ dependencies {
 
 	//graphql
 	//implementation("com.graphql-java-kickstart:graphql-spring-boot-starter:15.0.0")
-
-	implementation("com.expediagroup:graphql-kotlin-spring-server:7.0.0-alpha.4")
+	implementation("org.springframework.boot:spring-boot-starter-graphql")
+	//implementation("com.expediagroup:graphql-kotlin-spring-server:7.0.0-alpha.4")
 
 	testImplementation("io.mockk:mockk:1.13.4")
 
 	testImplementation("io.kotest:kotest-runner-junit5:5.5.5")
 	testImplementation("io.kotest:kotest-assertions-core:5.5.5")
 	testImplementation("com.ninja-squad:springmockk:3.0.1")
+	testImplementation("org.springframework.graphql:spring-graphql-test")
 
 }
 
